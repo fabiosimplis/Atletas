@@ -77,7 +77,7 @@ public class Main {
             }
 
         }
-
+        leitor.close();
         System.out.println("\nRELATÓRIO");
         double mediaPeso = somaPesos/quantidadeAtletas;
         System.out.printf("Peso médio dos atletas: %.2f\n", mediaPeso);
